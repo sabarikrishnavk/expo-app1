@@ -60,3 +60,6 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
     </AuthContext.Provider>
   );
 };
+
+// Add default export for the AuthProvider component
+export default AuthProvider;
